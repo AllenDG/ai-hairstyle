@@ -70,4 +70,3 @@ yarn build
 
 ---
 
-Built with ❤️ using React, Vite, TailwindCSS, ShadCN UI, and Magic UI.
