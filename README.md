@@ -6,8 +6,8 @@
 ![ShadCN UI](https://img.shields.io/badge/ShadCN_UI-000000?style=for-the-badge&logo=shadcn&logoColor=white)
 ![Magic UI](https://img.shields.io/badge/Magic_UI-8A2BE2?style=for-the-badge)
 
- web application that allows users to experiment with virtual hairstyles. Users can upload a photo, select their gender, choose hairstyles and hair colors, and generate a preview of their new look. The app includes a navigation bar with sections like Home, Tool, About Us, Contact, Login, and Create Account. It also features a chatbot for answering frequently asked questions (FAQs).
-## 🚀 Features
+ web application that allows users to experiment with virtual hairstyles. Users can upload a photo, select their gender, choose hairstyles and hair colors, and generate a preview of their new look. 
+ ## 🚀 Features
 
 - **React**: A JavaScript library for building user interfaces.
 - **Vite**: A next-generation frontend tooling for fast development.
@@ -28,8 +28,8 @@ Follow the steps below to get started:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/AllenDG/ai-hairstyle.git
+   cd ai-hairstyle
    ```
 
 2. Install dependencies:
@@ -64,13 +64,9 @@ npm run build
 yarn build
 ```
 
-## 🛡️ License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## 👨‍💻 Contributors
 
-- **[Your Name](https://github.com/your-username)** - Project Creator
+- **[AllenDG](https://github.com/AllenDG)** - Project Creator
 
 ---
 
