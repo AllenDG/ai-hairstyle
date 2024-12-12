@@ -6,8 +6,7 @@
 ![ShadCN UI](https://img.shields.io/badge/ShadCN_UI-000000?style=for-the-badge&logo=shadcn&logoColor=white)
 ![Magic UI](https://img.shields.io/badge/Magic_UI-8A2BE2?style=for-the-badge)
 
-A modern framework designed to streamline UI development with speed, flexibility, and beautiful components. Built using **React**, **Vite**, **TailwindCSS**, **ShadCN UI**, and **Magic UI**, it provides the tools needed to create sleek and interactive user interfaces with ease.
-
+ web application that allows users to experiment with virtual hairstyles. Users can upload a photo, select their gender, choose hairstyles and hair colors, and generate a preview of their new look. The app includes a navigation bar with sections like Home, Tool, About Us, Contact, Login, and Create Account. It also features a chatbot for answering frequently asked questions (FAQs).
 ## 🚀 Features
 
 - **React**: A JavaScript library for building user interfaces.
