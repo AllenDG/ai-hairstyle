@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Discover Styles",
+    "description": "Explore unique hairstyles tailored to your preferences.",
+    "icon": "/icons/style-icon.svg",
+    "href": "/discover",
+    "cta": "Explore Now",
+    "backgroundColor": "bg-blue-200"
+  },
+  {
+    "name": "AI Recommendations",
+    "description": "Get suggestions based on your face shape and style.",
+    "icon": "/icons/ai-icon.svg",
+    "href": "/recommendations",
+    "cta": "Learn More",
+    "backgroundColor": "bg-purple-200"
+  },
+  {
+    "name": "Community",
+    "description": "Join our community to share your favorite looks.",
+    "icon": "/icons/community-icon.svg",
+    "href": "/community",
+    "cta": "Join Us",
+    "backgroundColor": "bg-pink-200"
+  }
+]

@@ -64,3 +64,21 @@
     @apply bg-background text-foreground;
   }
 }
+/* Tailwind's extended utility for typewriter effect */
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typewriter-animation {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typewriter 4s steps(30) 1s forwards;
+}
+
