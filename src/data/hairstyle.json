@@ -1,0 +1,136 @@
+[
+  {
+    "id": 1,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Long Wavy"
+  },
+  { "id": 2, "image": "https://via.placeholder.com/300x400", "title": "Pixie" },
+  {
+    "id": 3,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Bob Cut"
+  },
+  {
+    "id": 4,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Loose Waves"
+  },
+  {
+    "id": 5,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Space Buns"
+  },
+  {
+    "id": 6,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Braided"
+  },
+  {
+    "id": 7,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Straight"
+  },
+  { "id": 8, "image": "https://via.placeholder.com/300x400", "title": "Curly" },
+  {
+    "id": 9,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "High Ponytail"
+  },
+  {
+    "id": 10,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Shaggy"
+  },
+  {
+    "id": 11,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Mohawk"
+  },
+  {
+    "id": 12,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Undercut"
+  },
+  {
+    "id": 13,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Side Swept"
+  },
+  {
+    "id": 14,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Pompadour"
+  },
+  {
+    "id": 15,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Top Knot"
+  },
+  { "id": 16, "image": "https://via.placeholder.com/300x400", "title": "Bun" },
+  {
+    "id": 17,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Flat Top"
+  },
+  {
+    "id": 18,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Crew Cut"
+  },
+  {
+    "id": 19,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Layered"
+  },
+  {
+    "id": 20,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Messy"
+  },
+  {
+    "id": 21,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "French Twist"
+  },
+  {
+    "id": 22,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Chignon"
+  },
+  {
+    "id": 23,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Buzz Cut"
+  },
+  {
+    "id": 24,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Curtains"
+  },
+  {
+    "id": 25,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Slick Back"
+  },
+  {
+    "id": 26,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Pin Curls"
+  },
+  { "id": 27, "image": "https://via.placeholder.com/300x400", "title": "Afro" },
+  {
+    "id": 28,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Flat Iron"
+  },
+  {
+    "id": 29,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Finger Waves"
+  },
+  {
+    "id": 30,
+    "image": "https://via.placeholder.com/300x400",
+    "title": "Pompadour"
+  }
+]
