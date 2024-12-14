@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export default function NavbarList() {
   const links = [
     { name: "Home", href: "/" },
-    { name: "HairStyle", href: "/hairstyle-ai" },
+    { name: "Hairstyle", href: "/hairstyle-ai" },
     { name: "About", href: "/about-us" },
     { name: "Contact", href: "/contact-us" },
   ];
