@@ -5,30 +5,39 @@ import HairstyleSelection from "@/features/hairstyle-ai/components/HairstyleSele
 import HairstyleColorSelector from "@/features/hairstyle-ai/components/HairstyleColorSelector";
 import GenerateButton from "@/features/hairstyle-ai/components/GenerateButton";
 import GeneratedHairstyles from "@/features/hairstyle-ai/components/GeneratedHairstyles";
+import ImageGenerated from "@/features/hairstyle-ai/components/ImageGenerated";
 
 export default function HairStyle() {
   return (
-    <div className="flex min-h-screen flex-col items-center px-4 py-10">
+    <div className="flex min-h-screen flex-col items-center bg-slate-300 px-4 py-10">
       {/* Header */}
       <Content />
 
-      {/* Upload Photo Section */}
-      <UploadPhoto />
+      <div className="grid w-full grid-cols-1 md:grid-cols-2">
+        <div className="w-full max-w-3xl bg-blue-500">
+          {/* Upload Photo Section */}
+          <UploadPhoto />
 
-      {/* Gender Selection */}
-      <GenderSelection />
+          {/* Gender Selection */}
+          <GenderSelection />
 
-      {/* Hairstyle Selection */}
-      <HairstyleSelection />
+          {/* Hairstyle Selection */}
+          <HairstyleSelection />
 
-      {/* Hairstyle Color Selector */}
-      <HairstyleColorSelector />
+          {/* Hairstyle Color Selector */}
+          <HairstyleColorSelector />
 
-      {/* Generate Button */}
-      <GenerateButton />
+          {/* Generate Button */}
+          <GenerateButton />
 
-      {/* Display Generated Hairstyles */}
-      <GeneratedHairstyles />
+          {/* Display Generated Hairstyles */}
+          <GeneratedHairstyles />
+        </div>
+
+        <div className = "w-full max-w-3xl bg-red-500">
+          <ImageGenerated />
+        </div>
+      </div>
     </div>
   );
 }

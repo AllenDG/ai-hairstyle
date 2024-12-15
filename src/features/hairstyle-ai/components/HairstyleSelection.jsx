@@ -2,7 +2,7 @@ import { Card } from "@/components/ui/card";
 
 const HairstyleSelection = () => {
   return (
-    <div className="mb-6 flex justify-between">
+    <div className="m-4 p-4 flex justify-center bg-purple-500">
       <div className="flex flex-col items-center">
         <Card className="mb-2 p-4 shadow-md">
           <img
