@@ -8,7 +8,7 @@ import {
 
 const ExampleForm = () => {
   return (
-    <div className="p-4">
+    <div className="p-4 m-4 bg-red-400">
       <form>
         <div className="mb-4">
           <Label htmlFor="color">Hairstyle Color</Label>
