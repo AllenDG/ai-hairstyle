@@ -8,15 +8,15 @@ import {
 
 const ExampleForm = () => {
   return (
-    <div className="p-4 m-4 bg-red-400">
+    <div className="p-4">
       <form>
         <div className="mb-4">
           <Label htmlFor="color">Hairstyle Color</Label>
           <Select>
-            <SelectTrigger>
+            <SelectTrigger className="bg-white">
               <span>Select a color</span>
             </SelectTrigger>
-            <SelectContent>
+            <SelectContent className="bg-white">
               <SelectItem value="black">Black</SelectItem>
               <SelectItem value="blonde">Blonde</SelectItem>
               <SelectItem value="brown">Brown</SelectItem>

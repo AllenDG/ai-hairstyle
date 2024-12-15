@@ -1,37 +1,37 @@
 import { Card } from "@/components/ui/card";
 
-const HairstyleSelection = () => {
+const FemaleHairstyle = () => {
   return (
-    <div className="m-4 flex justify-center bg-purple-500 p-4">
+    <div className="flex justify-center gap-2">
       <div className="flex flex-col items-center">
         <Card className="mb-2 p-4 shadow-md">
           <img
             src="https://via.placeholder.com/80x80"
             alt="Hairstyle"
-            className="rounded-full"
+            className="h-auto w-full" // Adjusted to full width, no rounding
           />
         </Card>
-        <p>Style 1</p>
+        <p>Female 1</p>
       </div>
       <div className="flex flex-col items-center">
         <Card className="mb-2 p-4 shadow-md">
           <img
             src="https://via.placeholder.com/80x80"
             alt="Hairstyle"
-            className="rounded-full"
+            className="h-auto w-full" // Adjusted to full width, no rounding
           />
         </Card>
-        <p>Style 2</p>
+        <p>Female 2</p>
       </div>
       <div className="flex flex-col items-center">
         <Card className="mb-2 p-4 shadow-md">
           <img
             src="https://via.placeholder.com/80x80"
             alt="Hairstyle"
-            className="rounded-full"
+            className="h-auto w-full" // Adjusted to full width, no rounding
           />
         </Card>
-        <p>Style 3</p>
+        <p>Female 3</p>
       </div>
 
       <div className="flex flex-col items-center">
@@ -39,23 +39,23 @@ const HairstyleSelection = () => {
           <img
             src="https://via.placeholder.com/80x80"
             alt="Hairstyle"
-            className="rounded-full"
+            className="h-auto w-full" // Adjusted to full width, no rounding
           />
         </Card>
-        <p>Style 3</p>
+        <p>Female 4</p>
       </div>
       <div className="flex flex-col items-center">
         <Card className="mb-2 p-4 shadow-md">
           <img
             src="https://via.placeholder.com/80x80"
             alt="Hairstyle"
-            className="rounded-full"
+            className="h-auto w-full" // Adjusted to full width, no rounding
           />
         </Card>
-        <p>Style 3</p>
+        <p>Female 5</p>
       </div>
     </div>
   );
 };
 
-export default HairstyleSelection;
+export default FemaleHairstyle;
