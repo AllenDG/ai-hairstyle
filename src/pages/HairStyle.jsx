@@ -1,6 +1,7 @@
 import Content from "@/components/hairstyle/Content"; // Assuming Content component is used for the header
 import UploadPhoto from "@/features/hairstyle-ai/components/UploadPhoto";
 import GenderSelection from "@/features/hairstyle-ai/components/GenderSelection";
+import { motion } from "framer-motion"; // Importing framer-motion for animation
 
 import HairstyleColorSelector from "@/features/hairstyle-ai/components/HairstyleColorSelector";
 import GenerateButton from "@/features/hairstyle-ai/components/GenerateButton";
@@ -14,7 +15,14 @@ export default function HairStyle() {
       <Content />
 
       <div className="grid w-full grid-cols-1 gap-4 md:grid-cols-2">
-        <div className="w-full max-w-3xl rounded-lg bg-gray-200 p-4">
+        {/* First Column with Scroll Animation */}
+        <motion.div
+          className="w-full max-w-3xl rounded-lg bg-gray-200 p-4"
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
           {/* Upload Photo Section */}
           <UploadPhoto />
 
@@ -26,14 +34,20 @@ export default function HairStyle() {
 
           {/* Generate Button */}
           <GenerateButton />
-        </div>
+        </motion.div>
 
-        <div className="w-full max-w-3xl rounded-lg bg-gray-200 p-4">
+        {/* Second Column with Scroll Animation */}
+        <motion.div
+          className="w-full max-w-3xl rounded-lg bg-gray-200 p-4"
+          initial={{ opacity: 0, x: 50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
           <ImageGenerated />
-        </div>
+        </motion.div>
       </div>
-
-      <InlineContent/>
+      <InlineContent />
     </div>
   );
 }

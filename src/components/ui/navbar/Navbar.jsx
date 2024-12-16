@@ -26,7 +26,7 @@ export default function Navbar() {
                 <div className="space-y-4">
                   <Button
                     variant="default"
-                    className="w-full bg-blue-600 hover:bg-blue-500"
+                    className="w-full bg-purple-800 hover:bg-purple-900"
                   >
                     Login
                   </Button>
@@ -46,7 +46,7 @@ export default function Navbar() {
 
         {/* Action Buttons for Desktop */}
         <div className="hidden space-x-4 lg:flex">
-          <Button variant="default" className="bg-blue-600 hover:bg-blue-500">
+          <Button variant="default" className="bg-purple-800 hover:bg-purple-900">
             Login
           </Button>
           <Button variant="outline">Register</Button>
